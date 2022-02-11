@@ -1,0 +1,124 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 55px;
+  
+   animation-name: fadeInAndTranslate;
+   animation-duration: .4s;
+    height: 4rem;
+
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.navitem1{
+    position: absolute;
+    width: 122px;
+    height: 19px;
+    left: 55px;
+    top: 36px;
+}
+.navitem2{
+
+    position: absolute;
+    width: 77px;
+    height: 18px;
+    left: 430px;
+    top: 36px;
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    
+    color: #000000;
+    
+}
+.navitem3{
+
+    position: absolute;
+    width: 42px;
+    height: 18px;
+    left: 615px;
+    top: 36px;
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    
+    color: #000000;
+}
+.navitem4{
+
+    position: absolute;
+    width: 66px;
+    height: 18px;
+    left: 765px;
+    top: 36px;
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    
+    color: #000000;
+}
+.navitem5{
+
+    position: absolute;
+    width: 70px;
+    height: 18px;
+    left: 938px;
+    top: 36px;
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    
+    color: #000000;
+}
+.navitem6{
+    position: absolute;
+width: 159px;
+height: 18px;
+left: 1217px;
+top: 36px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+text-decoration-line: underline;
+
+color: #000000;
+
+}
+@keyframes fadeIn {
+    0%{
+opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes fadeInAndTranslate {
+    0%{
+opacity: 0;
+transform: translateY(-20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

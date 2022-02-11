@@ -1,0 +1,105 @@
+.bigText{
+    position: absolute;
+width: 665px;
+height: 172px;
+left: 55px;
+top: 387px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 150px;
+line-height: 172px;
+animation-name: fadeInAndTranslate;
+animation-duration: .5s;
+animation-delay: .3s;
+color: #000000;
+animation-fill-mode: forwards;
+opacity: 0;
+}
+.description{
+    position: absolute;
+    width: 546px;
+    height: 68px;
+    left: 55px;
+    top: 594px;
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 34px;
+    animation-name: fadeInAndTranslate;
+    animation-duration: .5s;
+    animation-delay: .5s;
+    color: #000000;
+    animation-fill-mode: forwards;
+opacity: 0;
+}
+.btn{
+    display: flex;
+padding: 15px 30px;
+justify-content: center;
+align-items: center;
+position: absolute;
+width: 379px;
+height: 70px;
+left: 55px;
+top: 725px;
+color: white;
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+animation-name: fadeInAndTranslate;
+animation-duration: .5s;
+animation-delay: .7s;
+animation-fill-mode: forwards;
+opacity: 0;
+cursor: pointer;
+
+border: none;
+background: #000000;
+}
+.imagemain{
+
+position: absolute;
+width: 430px;
+height: 592px;
+right: 62px;
+top: 281px;
+opacity: 0;
+animation-name: fadeInAndTranslateX;
+animation-duration: .8s;
+animation-delay: .8s;
+animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+    0%{
+opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes fadeInAndTranslate {
+    0%{
+opacity: 0;
+transform: translateY(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInAndTranslateX {
+    0%{
+opacity: 0;
+transform: translateX(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
