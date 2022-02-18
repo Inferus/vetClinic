@@ -1,0 +1,40 @@
+.orderForm{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 10rem;
+    left: 3rem;
+    gap: 1rem;
+    width: 20%;
+}
+input{
+    height: 2rem;
+}
+button{
+    display: flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    
+    width: 379px;
+    height: 70px;
+   
+    color: white;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    animation-name: fadeInAndTranslate;
+    animation-duration: .5s;
+    animation-delay: .7s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    cursor: pointer;
+    
+    border: none;
+    background: #000000;
+}
+textarea{
+    height: 5rem;
+    width: 25rem;
+}

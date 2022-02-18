@@ -74,6 +74,59 @@ animation-duration: .8s;
 animation-delay: .8s;
 animation-fill-mode: forwards;
 }
+.littleHeading{
+
+    position: absolute;
+    width: 847px;
+    height: 105px;
+    left: 55px;
+    top: 1031px;
+    
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    opacity: 0;
+    color: #000000;
+    transition: all .5s;
+}
+.litleDescription{
+    position: absolute;
+    width: 559px;
+    height: 177px;
+    left: 807px;
+    top: 1284px;
+    opacity: 0;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    transition: all .5s;
+    color: #000000;
+}
+.roller{
+
+}
+.bone{
+    /* Vector 1 */
+animation-name: bone;
+animation-duration: 2s;
+animation-delay: .3s;
+animation-fill-mode: forwards;
+animation-direction: alternate;
+position: absolute;
+opacity: 0;
+left: 0px;
+top: 100px;
+transform: rotate(20deg);
+z-index: 1000000;
+}
+.fadeIn{
+opacity: 1;
+
+}
 @keyframes fadeIn {
     0%{
 opacity: 0;
@@ -101,5 +154,17 @@ transform: translateX(-30px);
     100%{
         opacity: 1;
         transform: translateX(0);
+    }
+}
+@keyframes bone {
+    0%{
+opacity: 0;
+transform: rotate(180deg)scale(1) ;
+
+    }
+    100%{
+opacity: 1;
+transform: rotate(0deg)scale(0.3);
+
     }
 }
